@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: calc(100vw/1440);
+    transition: 0.6s;
+}
+
+@media only screen and (max-width:414px) {
+
+    header {
+        background-position: center;
+    }
+
+    nav {
+        width: 414px;
+        padding: 19px 18px 26px 24px;
+    }
+
+    .login-top-text h1 {
+        padding-top: 125px;
+        color: var(--ffffff, #FFF);
+        font-family: Outfit;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%; /* 32px */
+    }
+
+    .login-top-text h2 {
+        color: #FFF;
+        font-family: Noto Sans JP;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 24px */
+        letter-spacing: 0.48px;
+        padding-top: 8px;
+    }
+
+    .navbar {
+        margin-top: 0;
+    }
+
+    /* ============main================== */
+
+    .view-all {
+        margin-top: -20px;
+        height: 194px;
+        padding: 72px 93px 49px 24px
+    }
+
+    .bread {
+        width: 366px;
+        margin-top: -18px;
+    }
+
+    .all-view {
+        width: 366px;
+        display: block;
+    }
+
+    .check {
+        display: block;
+    }
+
+    .check-1 {
+        width: 152px;
+        padding-bottom: 19px;
+    }
+
+    .check-1 h2 {
+        width: 152px;
+        padding-left: 9px;
+    }
+
+    .check-2 {
+        width: 48px;
+        padding: 10px 12px 11px;
+        margin-right: 16px;
+    }
+
+    .check-right .one {
+        margin-right: 16px;
+    }
+
+    .check-right a {
+        padding: 10px 12px 11px;
+    }
+
+    .view-child {
+        margin: auto;
+        width: 366px;
+        display: block;
+        padding-top: 33px;
+    }
+
+    .main-view {
+        width: 414px;
+        padding: 0;
+    }
+
+    .view-second-child {
+        width: 100%;
+    }
+
+    .view-first-child {
+        width: 193px;
+    }
+
+    .view-first-child h2 {
+        padding: 6px 8px 8px 8px;
+        margin-bottom: 12px;
+    }
+
+    .view-second-child h2 {
+        color: var(--007-c-72, #007C72);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Noto Sans JP;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%; /* 22.4px */
+    }
+
+    .view-second-child h3 {
+        padding-bottom: 32px;
+    }
+
+    .main-view hr {
+        width: 366px;
+        margin: auto;
+    }
+
+    /* ========footer=============== */
+
+    .footer-second {
+        width: 414px;
+        height: 597px;
+        padding: 59px 24px 47px 24px;
+    }
+
+    .navbar-1 {
+        height: 377px;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .nav-1 {
+        width: 414px;
+        flex-wrap: wrap;
+    }
+
+    .logo-1 {
+        width: 366px;
+        text-align: center;
+        padding-bottom: 63px;
+    }
+
+    .gap-1 {
+        gap: 0;
+    }
+    
+    .list-size {
+        width: 366px;
+        flex-wrap: wrap;
+    }
+
+    .list-size-div {
+        width: 171px;
+    }
+
+    .list-size a {
+        width: 171px;
+        padding-bottom: 18px;
+    }
+
+    .footer-hr {
+        width: 171px;
+        display: block;
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+        margin-top: 18px;
+        margin-bottom: 28px;
+    }
+
+    .size-change {
+        width: 366px;
+        padding-top: 30px;
+        padding-bottom: 42px;
+    }
+
+    .size-edit {
+        width: 171px;
+        padding: 18px;
+        text-align: center;
+    }
+    .footer-second p {
+        text-align: center;
+        padding-top: 97px;
+        padding-bottom: 47px;
+    }
+}
+

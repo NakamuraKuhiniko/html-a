@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: calc(100vw/1440);
+    transition: 0.6s;
+}
+
+@media only screen and (max-width:414px) {
+
+    header {
+        background-position: center;
+    }
+
+    nav {
+        width: 414px;
+        padding: 19px 18px 26px 24px;
+    }
+
+    .login-top-text h1 {
+        padding-top: 125px;
+        color: var(--ffffff, #FFF);
+        font-family: Outfit;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%; /* 32px */
+    }
+
+    .login-top-text h2 {
+        color: #FFF;
+        font-family: Noto Sans JP;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 24px */
+        letter-spacing: 0.48px;
+        padding-top: 8px;
+    }
+
+    .navbar {
+        margin-top: 0;
+    }
+
+    /* ============main================== */
+
+    .container {
+        width: 366px;
+        padding: 73px 24px 66px;
+    }
+
+    .container .first-p {
+        width: 366px;
+    }
+
+    .login-hr {
+        width: 366px;
+    }
+
+    .list-1 {
+        width: 366px;
+        margin-top: 36px;
+        margin-bottom: 24px;
+    }
+
+    .list-2 li {
+        width: 366px;
+    }
+
+    .list-2 {
+        width: 366px;
+    }
+
+    .list-2 p {
+        width: 366px;
+    }
+    
+    .list-1 p {
+        color: var(--007-c-72, #007C72);
+        font-family: Noto Sans JP;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%; /* 22.4px */
+    }
+
+    .container .first-p {
+        padding-bottom: 16px;
+    }
+
+    .login-window {
+        width: 366px;
+        padding-top: 37px;
+        padding-bottom: 13px;
+    }
+
+    .name {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .name h3 {
+        width: 318px;
+        padding-bottom: 12px;
+    }
+
+    .name option {
+        width: 100%;
+    }
+    
+    .name select {
+        width: 318px;
+        padding-top: 21px;
+        padding-left: 26px;
+        padding-bottom: 21px;
+        padding-right: 29px; 
+        margin-bottom: 24px;
+    }
+
+    .id {
+        width: 336px;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .id h3 {
+        width: 318px;
+        padding-bottom: 12px;
+    }
+
+    .id input {
+        width: 318px;
+        padding-top: 21px;
+        padding-left: 26px;
+        padding-bottom: 21px;
+        padding-right: 29px;
+        margin-bottom: 24px;
+    }
+
+    .header-content-a {
+        width: 204px;
+        margin-bottom: 48px;
+    }
+
+    .header-content-a p {
+        color: var(--ffffff, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Noto Sans JP;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 105%; /* 14.7px */
+    }
+
+    .submit {
+        width: 318px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-content-a a {
+        width: 216px;
+        justify-content: space-evenly;
+    }
+
+    /* ========footer=============== */
+
+    .footer-second {
+        width: 414px;
+        height: 597px;
+        padding: 59px 24px 47px 24px;
+    }
+
+    .navbar-1 {
+        height: 377px;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .nav-1 {
+        width: 414px;
+        flex-wrap: wrap;
+    }
+
+    .logo-1 {
+        width: 366px;
+        text-align: center;
+        padding-bottom: 63px;
+    }
+
+    .gap-1 {
+        gap: 0;
+    }
+    
+    .list-size {
+        width: 366px;
+        flex-wrap: wrap;
+    }
+
+    .list-size-div {
+        width: 171px;
+    }
+
+    .list-size a {
+        width: 171px;
+        padding-bottom: 18px;
+    }
+
+    .footer-hr {
+        width: 171px;
+        display: block;
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+        margin-top: 18px;
+        margin-bottom: 28px;
+    }
+
+    .size-change {
+        width: 366px;
+        padding-top: 30px;
+        padding-bottom: 42px;
+    }
+
+    .size-edit {
+        width: 171px;
+        padding: 18px;
+        text-align: center;
+    }
+
+    .footer-second p {
+        text-align: center;
+        padding-top: 97px;
+        padding-bottom: 47px;
+    }
+}
+
